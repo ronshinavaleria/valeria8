@@ -1,0 +1,8 @@
+s = input('Введите строку: ')
+k = 0
+for i in range(0, len(s)):
+    if s[i]=='е' and i==0:
+        k += 1
+    elif s[i]=='е' and s[i-1]==' ':
+        k += 1
+print(k)
